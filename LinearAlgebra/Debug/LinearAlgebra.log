@@ -1,0 +1,7 @@
+﻿  main.cpp
+  Matrix.cpp
+  正在生成代码...
+main.obj : error LNK2019: 无法解析的外部符号 "class std::basic_ostream<char,struct std::char_traits<char> > & __cdecl operator<<(class std::basic_ostream<char,struct std::char_traits<char> > &,class Matrix<double> const &)" (??6@YAAAV?$basic_ostream@DU?$char_traits@D@std@@@std@@AAV01@ABV?$Matrix@N@@@Z)，函数 _main 中引用了该符号
+main.obj : error LNK2019: 无法解析的外部符号 "public: __thiscall Matrix<double>::Matrix<double>(class std::basic_fstream<char,struct std::char_traits<char> > &)" (??0?$Matrix@N@@QAE@AAV?$basic_fstream@DU?$char_traits@D@std@@@std@@@Z)，函数 _main 中引用了该符号
+main.obj : error LNK2019: 无法解析的外部符号 "public: __thiscall Matrix<double>::~Matrix<double>(void)" (??1?$Matrix@N@@QAE@XZ)，函数 _main 中引用了该符号
+D:\Mycodes\VSProject\LinearAlgebra\LinearAlgebra\Debug\LinearAlgebra.exe : fatal error LNK1120: 3 个无法解析的外部命令
